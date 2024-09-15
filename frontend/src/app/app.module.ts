@@ -1,3 +1,4 @@
+import { TestPipe } from './test.pipe';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,7 +15,8 @@ import { HomeComponent } from './component/pages/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TestPipe
   ],
   providers: [],
   bootstrap: [AppComponent]

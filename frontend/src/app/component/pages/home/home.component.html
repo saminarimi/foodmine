@@ -4,4 +4,7 @@
       <a routerLink="/food/{{ food.id }}"></a>
     </li>
   </ul>
+  <!-- {{ currency_expression | currency : symbol : fractionSize}} -->
+  <p>Price : {{ price | currency : "INR" }}</p>
+  <p>Custom pipe {{ "AbUVd" | testPipe : "uppercase" }}</p>
 </div>

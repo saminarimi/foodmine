@@ -9,6 +9,7 @@ import { FoodService } from '../../../Services/food.service';
 })
 export class HomeComponent {
   foods: Food[] = []
+  price: number = 1234;
 
   constructor(private foodservice: FoodService) {
     this.foods = foodservice.getAll();
