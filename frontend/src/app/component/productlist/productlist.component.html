@@ -1,0 +1,5 @@
+<p>productlist works!</p>
+<div *ngFor="let product of products">
+  <p>{{ product.name }}</p>
+  <button (click)="addToCart(product)">Add to Cart</button>
+</div>
